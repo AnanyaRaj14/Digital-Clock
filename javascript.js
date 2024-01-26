@@ -37,7 +37,7 @@ setInterval(()=>{
     }
     else if(hour=12){
          document.getElementById("hour").innerHTML=12;
-         document.getElementById("period").innerHTML="PM"
+         document.getElementById("period").innerHTML="AM"
     }
     else{
         document.getElementById("hour").innerHTML=hour;
